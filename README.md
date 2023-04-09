@@ -75,7 +75,7 @@ Here are some related Papers and Code
 * #### ICCV
   * [KiloNeRFSpeeding up Neural Radiance Fields with Thousands of Tiny MLPs](https://creiser.github.io/kilonerf/)  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Code]](https://github.com/creiser/kilonerf)
 
-   <details> <summary>Abstract</summary>  
+    <details> <summary>Abstract</summary>  
       NeRF synthesizes novel views of a scene with unprecedented quality by fitting a neural radiance field to RGB images. However, NeRF requires querying a deep Multi-Layer Perceptron (MLP) millions of times, leading to slow rendering times, even on modern GPUs. In this paper, we demonstrate that real-time rendering is possible by utilizing thousands of tiny MLPs instead of one single large MLP. In our setting, each individual MLP only needs to represent parts of the scene, thus smaller and faster-to-evaluate MLPs can be used. By combining this divide-and-conquer strategy with further optimizations, rendering is accelerated by three orders of magnitude compared to the original NeRF model without incurring high storage costs. Further, using teacher-student distillation for training, we show that this speed-up can be achieved without sacrificing visual quality. < /details> 
 
    * [Mip-NeRF: A Multiscale Representation for Anti-Aliasing Neural Radiance Fields ](https://paperswithcode.com/paper/mip-nerf-a-multiscale-representation-for-anti)  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Code]](https://github.com/bebeal/mipnerf-pytorch)
