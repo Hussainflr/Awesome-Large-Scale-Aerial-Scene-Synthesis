@@ -1,7 +1,7 @@
 
 # Awesome Large Scale Aerial Scene Syntheis
 
-In this repo I'm going to maintain the list of papers related to Large Scale Aerial Scene Syntheis. Specially, I'm going to cover NeRF relevant papers.  
+In this repo, I'm going to maintain the list of papers related to Large Scale Aerial Scene Syntheis. Specially, I'm going to cover NeRF relevant papers.  
 
 
 ## Papers
