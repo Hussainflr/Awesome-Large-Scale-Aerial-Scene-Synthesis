@@ -19,14 +19,7 @@ Here are some related Papers and Code
   - [Instruct-NeRF2NeRF: Editing 3D Scenes with Instructions](https://instruct-nerf2nerf.github.io/)  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Code]](https://github.com/ayaanzhaque/instruct-nerf2nerf) 
     <details> <summary>Abstract</summary> 
      We propose a method for editing NeRF scenes with textinstructions. Given a NeRF of a scene and the collection
-of images used to reconstruct it, our method uses an imageconditioned diffusion model (InstructPix2Pix) to iteratively
-edit the input images while optimizing the underlying scene,
-resulting in an optimized 3D scene that respects the edit
-instruction. We demonstrate that our proposed method is
-able to edit large-scale, real-world scenes, and is able to
-accomplish more realistic, targeted edits than prior work.
-Result videos can be found on the project website: https:
-//instruct-nerf2nerf.github.io. < /details> 
+of images used to reconstruct it, our method uses an imageconditioned diffusion model (InstructPix2Pix) to iteratively edit the input images while optimizing the underlying scene, resulting in an optimized 3D scene that respects the edit instruction. We demonstrate that our proposed method is able to edit large-scale, real-world scenes, and is able to accomplish more realistic, targeted edits than prior work. Result videos can be found on the project website: https://instruct-nerf2nerf.github.io. < /details> 
   
     
   
