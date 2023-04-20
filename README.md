@@ -9,8 +9,28 @@ In this repo, I'm going to maintain the list of papers related to Large Scale Ae
 Here are some related Papers and Code 
 
 ### 2023
+* #### CVPR
+  - [InstructPix2Pix: Learning to Follow Image Editing Instructions](https://www.timothybrooks.com/instruct-pix2pix/)  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Code]](https://github.com/timothybrooks/instruct-pix2pix) 
+    <details> <summary>Abstract</summary> 
+     We propose a method for editing images from human instructions: given an input image and a written instruction that tells the model what to do, our model follows these instructions to edit the image. To obtain training data for this problem, we combine the knowledge of two large pretrained models---a language model (GPT-3) and a text-to-image model (Stable Diffusion)---to generate a large dataset of image editing examples. Our conditional diffusion model, InstructPix2Pix, is trained on our generated data, and generalizes to real images and user-written instructions at inference time. Since it performs edits in the forward pass and does not require per-example fine-tuning or inversion, our model edits images quickly, in a matter of seconds. We show compelling editing results for a diverse collection of input images and written instructions. < /details> 
+
 
 * #### unsorted 
+  - [Instruct-NeRF2NeRF: Editing 3D Scenes with Instructions](https://instruct-nerf2nerf.github.io/)  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Code]](https://github.com/ayaanzhaque/instruct-nerf2nerf) 
+    <details> <summary>Abstract</summary> 
+     We propose a method for editing NeRF scenes with textinstructions. Given a NeRF of a scene and the collection
+of images used to reconstruct it, our method uses an imageconditioned diffusion model (InstructPix2Pix) to iteratively
+edit the input images while optimizing the underlying scene,
+resulting in an optimized 3D scene that respects the edit
+instruction. We demonstrate that our proposed method is
+able to edit large-scale, real-world scenes, and is able to
+accomplish more realistic, targeted edits than prior work.
+Result videos can be found on the project website: https:
+//instruct-nerf2nerf.github.io. < /details> 
+  
+    
+  
+  
   - [4K-NeRF: High Fidelity Neural Radiance Fields at Ultra High Resolutions](https://arxiv.org/abs/2212.04701)  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Code]](https://github.com/frozoul/4K-NeRF) 
     <details> <summary>Abstract</summary> 
       In this paper, we present a novel and effective framework, named 4K-NeRF, to pursue high fidelity view synthesis on the challenging scenarios of ultra high resolutions, building on the methodology of neural radiance fields (NeRF). The rendering procedure of NeRF-based methods typically relies on a pixel-wise manner in which rays (or pixels) are treated independently on both training and inference phases, limiting its representational ability on describing subtle details, especially when lifting to a extremely high resolution. We address the issue by exploring ray correlation to enhance high-frequency details recovery. Particularly, we use the 3D-aware encoder to model geometric information effectively in a lower resolution space and recover fine details through the 3D-aware decoder, conditioned on ray features and depths estimated by the encoder. Joint training with patch-based sampling further facilitates our method incorporating the supervision from perception oriented regularization beyond pixel-wise loss. Benefiting from the use of geometry-aware local context, our method can significantly boost rendering quality on high-frequency details compared with modern NeRF methods, and achieve the state-of-the-art visual quality on 4K ultra-high-resolution scenario. < /details> 
