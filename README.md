@@ -10,7 +10,7 @@ Here are some related Papers and Code
 
 ### 2023
 * #### CVPR
-  - [Grid-guided Neural Radiance Fields for Large Urban Scenes](https://city-super.github.io/gridnerf/)  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Code]]() 
+  - [Grid-guided Neural Radiance Fields for Large Urban Scenes](https://city-super.github.io/gridnerf/)  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Code]
     <details> <summary>Abstract</summary> 
     Target Scenes. In this work, we perform large urban scene rendering with novel grid-guided neural radiance fields. An example of a large urban scene is shown on the left, which spans over 2.7km^2 ground areas captured by over 5k drone images. We show that the rendering results from NeRF-based methods, are blurry and overly smoothed with limited model capacity, while feature grid-based methods tend to display noisy artifacts when adapting to large-scale scenes with high-resolution feature grids. Our proposed two-branch model combines the merits from both approaches and achieves photorealistic novel view renderings with remarkable improvements over existing methods. Both of the two branches gain significant enhancements over their individual baselines. < /details> 
   
