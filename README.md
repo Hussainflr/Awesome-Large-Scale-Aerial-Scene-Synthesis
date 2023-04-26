@@ -22,7 +22,6 @@ Here are some related Papers and Code
     <details> <summary>Abstract</summary> 
      We propose a method for editing images from human instructions: given an input image and a written instruction that tells the model what to do, our model follows these instructions to edit the image. To obtain training data for this problem, we combine the knowledge of two large pretrained models---a language model (GPT-3) and a text-to-image model (Stable Diffusion)---to generate a large dataset of image editing examples. Our conditional diffusion model, InstructPix2Pix, is trained on our generated data, and generalizes to real images and user-written instructions at inference time. Since it performs edits in the forward pass and does not require per-example fine-tuning or inversion, our model edits images quickly, in a matter of seconds. We show compelling editing results for a diverse collection of input images and written instructions. < /details> 
 
-  
   - [PaletteNeRF: Palette-based Appearance Editing of Neural Radiance Fields](https://www.timothybrooks.com/instruct-pix2pix/)  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Code]](https://github.com/timothybrooks/instruct-pix2pix) 
     <details> <summary>Abstract</summary> 
      Recent advances in neural radiance fields have enabled the high-fidelity 3D reconstruction of complex scenes for novel view synthesis. However, it remains underexplored how the appearance of such representations can be efficiently edited while maintaining photorealism.
